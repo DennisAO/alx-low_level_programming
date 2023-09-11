@@ -6,12 +6,19 @@
  */
 int main(void)
 {
-	char i;
+	int n = 97;
+	int m = 65;
 
-	for (i = 'a' ; i <= 'z' ; i++)
-		putchar(i);
-	for (i = 'A' ; i <= 'Z' ; i++)
-		putchar(i);
-	putchar("\n");
+	while (n <= 122)
+	{
+	putchar(n);
+	n++;
+	}
+	while (m <= 90)
+	{
+	putchar(m);
+	m++;
+	}
+	putchar('\n');
 	return (0);
 }
