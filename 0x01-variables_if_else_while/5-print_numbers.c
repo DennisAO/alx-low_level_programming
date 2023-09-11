@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - the main of the code to base 10
+ * main - Prints numbers from 0 to 9.
  *
- * Return: always 0
+ * Return: Always zero
  */
 int main(void)
 {
-	int a;
+	int i;
 
-	for (a = 0 ; a <= 10 ; a++)
+	for (i = 0; i < 10; i++)
 	{
-		printf("%d\n", a);
+		printf("%d", i);
 	}
+	putchar('\n');
 	return (0);
 }
