@@ -1,17 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - prints all single digit numbers of base ten starting from 0
- *
+ * main - prints all single number
  * Return: Always 0
  */
 int main(void)
 {
-	char ch;
+	int a;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+	for (a = 0; a < 10; a++)
 	{
-		putchar(ch);
+	putchar(a + '0');
 	}
 	putchar('\n');
 	return (0);
